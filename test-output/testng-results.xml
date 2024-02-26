@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-21T13:31:13 BDT" name="Default suite" finished-at="2024-02-21T13:33:30 BDT" duration-ms="137849">
+    <groups>
+    </groups>
+    <test started-at="2024-02-21T13:31:13 BDT" name="Default test" finished-at="2024-02-21T13:33:30 BDT" duration-ms="137849">
+      <class name="Automation.SoftBD">
+        <test-method is-config="true" signature="url()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:31:13 BDT" name="url" finished-at="2024-02-21T13:31:22 BDT" duration-ms="9145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="forgetPassword()[pri:1, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:31:22 BDT" name="forgetPassword" description="Password Reset" finished-at="2024-02-21T13:31:30 BDT" duration-ms="7674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:31:30 BDT" name="close" finished-at="2024-02-21T13:31:30 BDT" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="url()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:31:30 BDT" name="url" finished-at="2024-02-21T13:31:37 BDT" duration-ms="6790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="invalidSigninEmail()[pri:1, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:31:37 BDT" name="invalidSigninEmail" description="invalid Email and  valid password" finished-at="2024-02-21T13:31:50 BDT" duration-ms="12785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSigninEmail -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:31:50 BDT" name="close" finished-at="2024-02-21T13:31:50 BDT" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="url()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:31:50 BDT" name="url" finished-at="2024-02-21T13:31:56 BDT" duration-ms="6528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="invalidSigninPassword()[pri:1, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:31:56 BDT" name="invalidSigninPassword" description="valid Email and  invalid password" finished-at="2024-02-21T13:32:09 BDT" duration-ms="12782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSigninPassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:09 BDT" name="close" finished-at="2024-02-21T13:32:10 BDT" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="url()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:10 BDT" name="url" finished-at="2024-02-21T13:32:16 BDT" duration-ms="6703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="invalidSignupEmail()[pri:1, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:16 BDT" name="invalidSignupEmail" description="Invalid Email and Password" finished-at="2024-02-21T13:32:27 BDT" duration-ms="10573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignupEmail -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:27 BDT" name="close" finished-at="2024-02-21T13:32:27 BDT" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="url()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:27 BDT" name="url" finished-at="2024-02-21T13:32:34 BDT" duration-ms="6662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="invalidsignup()[pri:1, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:34 BDT" name="invalidsignup" description="Invalid Email and Valid Password" finished-at="2024-02-21T13:32:44 BDT" duration-ms="10565" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Email required] but found [invalid email]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Email required] but found [invalid email]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Automation.SoftBD.invalidsignup(SoftBD.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidsignup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:44 BDT" name="close" finished-at="2024-02-21T13:32:45 BDT" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="url()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:45 BDT" name="url" finished-at="2024-02-21T13:32:52 BDT" duration-ms="6952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="validSignin()[pri:1, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:32:52 BDT" name="validSignin" description="valid Email and password" finished-at="2024-02-21T13:33:05 BDT" duration-ms="12800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSignin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:33:05 BDT" name="close" finished-at="2024-02-21T13:33:05 BDT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="url()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:33:05 BDT" name="url" finished-at="2024-02-21T13:33:12 BDT" duration-ms="6737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="validsignup()[pri:1, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:33:12 BDT" name="validsignup" description="valid user" finished-at="2024-02-21T13:33:12 BDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validsignup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:33:12 BDT" name="close" finished-at="2024-02-21T13:33:12 BDT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="url()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:33:12 BDT" name="url" finished-at="2024-02-21T13:33:18 BDT" duration-ms="6514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="JobApplay()[pri:2, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:33:18 BDT" name="JobApplay" description="Apply Job" finished-at="2024-02-21T13:33:30 BDT" duration-ms="11757" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div/div/div[1]/div/div/div/div/div/div[2]/div/div[2]/div/div/div[4]/button[1]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5200de165fedc69acddfc98d9d48f8b, findElement {using=xpath, value=//*[@id="__next"]/div/div/div[1]/div/div/div/div/div/div[2]/div/div[2]/div/div/div[4]/button[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14694/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5200de165fedc69acddfc98d9d48f8b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="__next"]/div/div/div[1]/div/div/div/div/div/div[2]/div/div[2]/div/div/div[4]/button[1]"}
+  (Session info: chrome=121.0.6167.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5200de165fedc69acddfc98d9d48f8b, findElement {using=xpath, value=//*[@id="__next"]/div/div/div[1]/div/div/div/div/div/div[2]/div/div[2]/div/div/div[4]/button[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:14694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:14694/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5200de165fedc69acddfc98d9d48f8b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at Automation.SoftBD.JobApplay(SoftBD.java:229)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobApplay -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Automation.SoftBD@10650953]" started-at="2024-02-21T13:33:30 BDT" name="close" finished-at="2024-02-21T13:33:30 BDT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Automation.SoftBD -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

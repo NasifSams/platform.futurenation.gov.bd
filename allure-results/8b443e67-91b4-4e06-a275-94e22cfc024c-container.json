@@ -1,0 +1,1 @@
+{"uuid":"8b443e67-91b4-4e06-a275-94e22cfc024c","name":"Automation.SoftBD.url","children":["86a62249-1e54-49ac-b2c6-504529182b57"],"description":"","befores":[{"name":"url","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1708444872084,"stop":1708444878431}],"afters":[],"start":1708444872084,"stop":1708444878431}
